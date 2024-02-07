@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    max-width: 700px;
+    max-width: 800px;
 }
 
 .introduction, .footer {
@@ -55,7 +55,7 @@ body {
     padding-bottom: 10px;
 }
 
-.secondary-text {
+.secondary-text, .cta-prompt p {
     color: #E5E7EB;
     font-size: 12px;
     margin: 0;
@@ -75,7 +75,7 @@ body {
     font-size: 12px;
 }
 
-.cta, .top-cta, .content-cta {
+.cta, .top-cta, .content-cta button {
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -84,8 +84,8 @@ body {
     border: none;
 }
 
-.content-cta {
-    border: 1px solid #F9FAF8;
+.content-cta button {
+    border: 2px solid #F9FAF8;
 }
 
 button {
@@ -137,4 +137,21 @@ button {
     text-align: right;
     max-width: 500px;
     margin: auto;
+}
+
+.call-to-action {
+    padding: 60px 0;
+    border: 1px solid green;
+}
+
+.cta {
+    border-radius: 8px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.cta-prompt h3 {
+    margin-bottom: 0;
 }
